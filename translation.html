@@ -4,6 +4,8 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
@@ -13,9 +15,14 @@
     <label for="search_bar" class = "bar_label">Learn something new today!</label>
 
     <div>
-    <form action="" role = "search">
-        <input type="search" id = "search_bar" placeholder = "Enter a word" name = "q" size = "26" class = search>
-        <button>Search</button>
+    <form action="./" method = "get" role = "search">
+        <div class = "real_searchBar">
+            <input type="text" class = "search_input" id = "search_bar" placeholder = "Enter a word" name = "q" size = "26">
+            <button type = "submit" class = "search_button">
+                <i class = "material-icons">search</i>
+            </button>
+        </div>
+        
     </form>
     </div>
    
